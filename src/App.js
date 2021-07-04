@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Table from './components/shared/Table';
 
 function App() {
+  console.log('Primer aplicación react');
+  //Todos los componentes deber estar encapsulados en un único tag
+  //Se puede usar la etiqueta <React.Fragment> que no tiene ningún tipo de comportamiento
   return (
     <div className="App">
       {/*       <header className="App-header">
@@ -20,6 +24,7 @@ function App() {
       </header> */}
       <h1>Bienvenido</h1>
       <p>A la diplomatura en React</p>
+      <Table></Table>
     </div>
   );
 }
